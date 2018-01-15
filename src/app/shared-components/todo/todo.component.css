@@ -1,0 +1,23 @@
+.Todo {
+  width: 300px;
+  height: 250px;
+  border: 1px solid grey;
+  margin-right: 20px;
+}
+
+.Todo:last-child {
+  margin-right: 0;
+}
+
+.Todo-header {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.Todo-description {
+  padding: 10px;
+}

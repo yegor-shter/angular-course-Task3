@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="EditContainer">
+  <app-todo-edit (onSaveSuccess)="updateList()" [todoId]="id" *ngFor="let id of openTodoIds"></app-todo-edit>
+</div>
+
+<div class="AppSlider">
+  <button class="ApSlider-arrow" (click)="moveLeft()">Left</button>
+
+  <app-slider #slider>
+    <app-todo [todo]="todo" (click)="openEditTodo(todo.id)" *ngFor="let todo of todos"></app-todo>
+  </app-slider>
+
+  <button class="ApSlider-arrow" (click)="moveRight()">Right</button>
+</div>
+

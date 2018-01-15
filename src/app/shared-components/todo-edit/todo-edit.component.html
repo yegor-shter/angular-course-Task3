@@ -1,0 +1,12 @@
+<div class="TodoEdit">
+  <form *ngIf="todo" (ngSubmit)="save()">
+    <h3>Edit task {{todo.id}}</h3>
+    <div>
+        <input name="title"  [(ngModel)]="todo.title" />
+    </div>
+    <div>
+      <textarea name="text" [(ngModel)]="todo.text"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>

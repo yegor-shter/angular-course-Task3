@@ -1,0 +1,12 @@
+[
+  {
+    "value": "important",
+    "label": "pay attention"
+  },{
+    "value": "critical",
+    "label": "do IT!"
+  },{
+    "value": "secret",
+    "label": "no one should read"
+  }
+]

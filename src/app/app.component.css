@@ -1,0 +1,25 @@
+.AppSlider {
+  display: flex;
+  align-items: center;
+}
+
+.ApSlider-arrow {
+  height: 55px;
+  width: 55px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  color: bisque;
+  border: none;
+  border-radius: 60%;
+  margin: 0 10px;
+  padding: 0;
+  flex-shrink:0;
+}
+
+.EditContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
